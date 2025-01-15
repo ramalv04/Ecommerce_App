@@ -1,0 +1,159 @@
+.titulo-pagina {
+  color: burlywood;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 5rem;
+  border-bottom: 0.3rem dashed #000;
+}
+#seccion-elegir {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem;
+  background-color: var(--claro);
+  border-radius: 0.2rem;
+}
+#seccion-elegir h3 {
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: var(--bold);
+  margin: 0;
+  color: var(--negro);
+}
+@media (max-width: 768px) {
+  #seccion-elegir {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--claro);
+    padding: 3.5rem;
+  }
+}
+.contenedor-alfombras, .contenedor-tapices {
+  margin-top: var(--separacion);
+  padding-bottom: var(--separacion);
+  background-color: rgba(242, 242, 242, 0.5);
+}
+.contenedor-alfombras h2, .contenedor-tapices h2 {
+  color: var(--negro);
+  padding-top: 2rem;
+  text-transform: uppercase;
+}
+.contenedor-alfombras .contenedor-productos, .contenedor-tapices .contenedor-productos {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+  @media (min-width: 768px) {
+    .contenedor-alfombras .contenedor-productos, .contenedor-tapices .contenedor-productos {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+.producto{
+  background-color: var(--blanco);
+  padding: 1rem;
+  border-radius: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+.producto:hover {
+  transform: scale(1.05);
+}
+.producto img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1px;
+}
+.producto h3 {
+  color: var(--marron);
+  font-weight: var(--bold);
+  margin-top: 1rem;
+}
+.producto p {
+  color: var(--oscuro);
+  font-weight: var(--bold);
+  margin-top: 1rem;
+}
+
+/* Fin Tienda */
+
+
+
+/* Estilos para el producto */
+.producto-tienda-id {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.img-producto-id img {
+  width: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.informacion-producto {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+}
+
+.informacion-producto h1 {
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
+
+.precio {
+  color: #dc3545;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.descripcion-producto {
+  margin-top: 20px;
+  line-height: 1.5;
+  color: #333;
+}
+/* Estilos para el campo de entrada de cantidad */
+.input-cantidad, .input-cantidad-p {
+  width: 50px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+  @media (max-width: 768px) {
+    .producto-tienda-id {
+      display: flex;
+      flex-direction: column;
+    }
+    .img-producto-id img {
+      width: auto; /* Esto hará que la imagen mantenga su tamaño original */
+      max-width: 100%; /* Esto hará que la imagen se haga responsive cuando la pantalla sea más pequeña que su tamaño original */
+    }
+  
+    .descripcion-producto {
+      font-size: 14px; /* Ajusta este valor según tus necesidades */
+      word-wrap: break-word; /* Esto hará que las palabras largas se rompan y pasen a la siguiente línea */
+    }
+    .precio {
+      text-align: center;
+    }
+  }
+
+
+

@@ -1,0 +1,214 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--blanco);
+  color: var(--negro);
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.6rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Poppins", sans-serif;
+  margin: 0 0 2.5rem 0;
+  font-weight: 900;
+  text-align: center;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3.6rem;
+}
+
+h3 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+p {
+  color: var(--negro);
+  font-size: 2rem;
+}
+
+a {
+  color: var(--negro);
+}
+
+td {
+  color: var(--negro);
+}
+
+.contenedor {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contenedor2 {
+  width: 80%;
+  padding-bottom: 5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.img-background-2 {
+  background-image: url(../../img/generales/3.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-background-3 {
+  background-image: url(../../img/generales/4.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nombre-pagina {
+  text-align: center;
+  margin: 5rem 0;
+  font-weight: 700;
+}
+
+.descripcion-pagina {
+  text-align: center;
+}
+
+.activo {
+  display: block;
+  background-color: #f0f0f0;
+}
+
+.inactivo {
+  display: none;
+}
+
+.inactivo:hover {
+  background-color: #876e56;
+}
+
+.descripcion-pagina-1 {
+  color: #181717;
+  text-align: center;
+}
+
+.mensaje-pagina {
+  text-align: center;
+  color: green;
+}
+
+.mensaje-pagina-1 {
+  color: #181717;
+}
+
+
+/* Alertas y mas */
+.formulario {
+  margin-top: 5rem;
+  width: 100%;
+}
+
+.alerta {
+  padding: 1.25rem;
+  color: #f0f0f0;
+  width: 100%;
+  display: block;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 0.5rem;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.6);
+  font-family: Arial, sans-serif;
+}
+
+.alerta.error {
+  background-color: #ff0000c5;
+}
+
+.alerta.exito {
+  background-color: #329f00;
+}
+
+/* Botones Globales*/
+.btn-volver {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #007BFF;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  transition:  0.3s ease;
+}
+
+.btn-volver:hover {
+  background-color: #0056b3;
+}
+
+.btn-agregar-producto {
+  padding: 10px 20px;
+  float: right;
+  color: #fff;
+  background-color: #28a745;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 1.5rem;
+}
+
+.btn-agregar-producto:hover {
+  background-color: #1e7e34;
+}
+.btn-eliminar {
+  background-color: #f44336; /* Red */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.btn-eliminar:hover {
+  background-color: #d32f2f;
+}
+
+

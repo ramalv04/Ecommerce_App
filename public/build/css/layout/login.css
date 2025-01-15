@@ -1,0 +1,86 @@
+/*Login page*/
+.nombres-pagina,
+.descripcion-pagina {
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 5;
+  margin: 0;
+  background-color: #ffca98;
+  padding: 1rem;
+}
+
+.img-background {
+  background-image: url(../../img/generales/7.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.container-login {
+  padding: 5rem;
+  width: 38%;
+}
+
+.container-login div {
+  background-color: rgba(242, 242, 242, 0.5);
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.container-login label {
+  margin-top: 0;
+  display: block;
+  border: 1rem;
+  font-size: 1.9rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 700;
+}
+
+.container-login input[type=email],
+input[type=text],
+input[type=password] {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 0;
+  border-radius: 0.5rem;
+  color: #181717;
+  border: 2px solid #000000;
+}
+
+.container-login input[type=submit] {
+  width: 100%;
+  padding: 1rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.container-login input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.acciones {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  color: #000000;
+}
+
+.container-login .olvidaste-password {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .container-login {
+    width: 100%;
+    padding: 1rem;
+  }
+}

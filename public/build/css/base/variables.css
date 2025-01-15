@@ -1,0 +1,42 @@
+:root {
+    /* Fuentes */
+    --fuente-principal: 'Poppins', sans-serif;
+    --fuente-titulos:  "Rubik Scribble", system-ui;
+    --fuente-probando:  "Oswald", sans-serif;
+
+  
+    /* Colores */
+    --azul: #728495;
+    --rojo: #cb0000;
+    --verde: #329f00;
+    --oscuro: #876e56;
+    --marron: #593b1c;
+    --claro: #AB9680;
+    --clarito: #BAAB9B;
+  
+    --negro: #181717;
+    --blanco: #F0F0F0;
+    --gris: #e1e1e1;
+  
+    --color-primario: #d8d8d8;
+    --color-secundario: #9b9b9b;
+    --color-terciario: #98a9be;
+    --color-cuaternareo: #7c7c7c;
+    --color-quintenario: #f7f7f7;
+  
+    --primary-color: #9191bd;
+    --secondary-color: #c7c7f3;
+    --light-color: #f8f8f8;
+    --dark-color: #333;
+    --medium-color: #555;
+    --grey-color: #a7a7a7;
+    --white-color: #fff;
+  
+    --separacion: 5rem;
+  
+    /* Fuentes */
+    --delgada: 300;
+    --regular: 400;
+    --bold: 700;
+    --black: 900;
+  }
