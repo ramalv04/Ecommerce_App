@@ -8,3 +8,5 @@ El objetivo principal del proyecto fue aplicar conocimientos de desarrollo web, 
 - **Carrito de compras** funcional.
 - **Sistema de pedidos**.
 - **Gestión de usuarios** para personalizar la experiencia de compra.
+
+Para entrar a ver la página, puede hacer [click aquí](https://ecommerceapp-4pb9.onrender.com/).
